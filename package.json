@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-vue-remove-attributes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removing data attributes from SFC at build time",
   "main": "src/index.js",
   "keywords": [
