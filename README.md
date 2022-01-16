@@ -12,10 +12,11 @@ import removeAttrsPlugin from "vite-plugin-vue-remove-attributes";
 
 export default defineConfig({
   plugins: [
-    vue(),
-    removeAttrsPlugin(["test-id"]), // By default ["test-id"]
-  ],
+    removeAttrsPlugin(["test-id"]) // By default ["test-id"]
+  ]
 });
 ```
+
+Inspired by [vue-cli-plugin-test-attrs](https://github.com/LinusBorg/vue-cli-plugin-test-attrs)
 
 
