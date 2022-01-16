@@ -1,0 +1,11 @@
+{
+  "name": "vite-plugin-vue-remove-attributes",
+  "version": "1.0.0",
+  "description": "Remove attributes on build",
+  "main": "src/index.js",
+  "keywords": [
+    "vite-plugin"
+  ],
+  "author": "Ilya Artamonov",
+  "license": "MIT"
+}
