@@ -2,7 +2,19 @@
 
 This plugin removing data attributes from SFC at build time
 
-## Usage
+## 📦 Install
+
+```bash
+npm i vite-plugin-vue-remove-attributes -D
+
+# yarn
+yarn add vite-plugin-vue-remove-attributes -D
+
+# pnpm
+pnpm add vite-plugin-vue-remove-attributes -D
+```
+
+## 🦄 Usage
 
 Add plugin to your vite.config.js
 

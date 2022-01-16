@@ -4,7 +4,9 @@
   "description": "Removing data attributes from SFC at build time",
   "main": "dist/vite-plugin-vue-remove-attributes.cjs.js",
   "keywords": [
-    "vite-plugin"
+    "vite-plugin",
+    "removing attributes",
+    "vue-plugin"
   ],
   "author": {
     "name": "Ilya Artamonov",
