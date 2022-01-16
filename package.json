@@ -2,7 +2,7 @@
   "name": "vite-plugin-vue-remove-attributes",
   "version": "1.0.1",
   "description": "Removing data attributes from SFC at build time",
-  "main": "src/index.js",
+  "main": "dist/vite-plugin-vue-remove-attributes.cjs.js",
   "keywords": [
     "vite-plugin"
   ],
@@ -14,5 +14,14 @@
     "url": "https://github.com/cogor/vite-plugin-vue-remove-attributes"
   },
   "license": "MIT",
-  "type": "module"
+  "devDependencies": {
+    "rollup": "^2.64.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "src",
+    "dist"
+  ]
 }

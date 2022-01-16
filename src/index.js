@@ -1,6 +1,6 @@
 import path from "path";
 
-export function removeAttrsPlugin(options) {
+export default function removeAttrsPlugin(options) {
   return {
     name: 'vite-plugin-vue-remove-attributes',
     apply: 'build',
