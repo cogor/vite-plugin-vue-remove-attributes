@@ -13,5 +13,6 @@
   "repository": {
     "url": "https://github.com/cogor/vite-plugin-vue-remove-attributes"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
